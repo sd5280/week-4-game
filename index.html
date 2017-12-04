@@ -2,18 +2,47 @@
 <html lang="en">
 
 <head>
-    <title>Hello, world!</title>
+    <title>Crystals Collector</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Contrail+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <script src="./assets/javascript/game.js"></script>
+
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous"> -->
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <container class="container">
+    <h1>Crystals Collector!</h1>
+
+    <div class="directions">
+        <p>
+            You will be given a random number at the start of the game.<br><br>
+            There are four crystals below. By clicking on a crystal you will add a 
+            specific amount of points to your total score.<br><br>
+            You win the game by matching your total score to the random number,
+            you lose the game if your total score goes above the random number.<br><br>
+            Each time when the game starts, the game will change values of each crystal.
+        </p>
+    </div>
+        <div class="generatedStuff">
+            <div class="randomNumber">Random number here</div>
+            <div class="winLoss">Wins: <br>Losses: </div>
+        </div>
+
+    <div class="gems"><img src="./assets/images/diamond.jpg"><img src="./assets/images/emerald.png">
+        <img src="./assets/images/ruby.jpg"><img src="./assets/images/sapphire.jpg"></div>
+   
+    <div class="totalScore">Your total score</div>
+
+</container>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

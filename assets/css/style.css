@@ -1,0 +1,78 @@
+body {
+    width: 60%;
+    float: left;
+    font-family: 'Contrail One', cursive; 
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h1 {
+    width: 50%;
+    text-align: center;
+    background-color: #114477;
+    color: #eeeeee;
+    padding: 30px;
+}
+
+.directions {
+    width: 100%;
+    background-color: #f0f345;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* .generatedStuff {
+    width: 30%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #bbbbbb;
+    margin-left: 5px;
+    
+} */
+
+.randomNumber {
+    float: left;
+    width: 30%;
+    height: 75px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #662af3;
+    text-align: center;
+    
+}
+
+.winLoss {
+    float: left;
+    width: 30%;
+    height: 75px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #bbbbbb;
+    margin-left: 5px;
+    
+}
+
+.gems {
+    float: left;
+}
+
+/* button {
+    width: 110px;
+    height: 110px;
+    background: url(./assets/images/diamondsized.jpg);
+} */
+img {
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    border-style: solid;
+    border-color: #bbf5bb;
+
+}
+
+.totalScore {
+    float: left;
+    width: 50%;
+    height: 100px;
+    background-color: #2ff52f;
+}
